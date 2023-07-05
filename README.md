@@ -18,7 +18,7 @@ Links to resource: Github, Paper, Hugging Face Etc.
 All models are not sorted by any items, may be sorted by date or parameter size, etc.
 
 ## NLP models💬
-|Model Name|Release Date|Developer/Institute|Size of Parameter|Github|Hugging Face|modelscope(魔塔)|Framework|Paper|Closed/Open source|
+|Model Name|Release Date|Developer/Institute|Size of Parameter|Github|Hugging Face|modelscope(魔搭)|Framework|Paper|Closed/Open source|
 |--|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |Transformer|2017.06|Google|N / A|[[Link](https://github.com/huggingface/transformers)]|[[Link](https://huggingface.co/docs/transformers/index)]|[[Link](https://www.modelscope.cn/models/damo/speech_transformer_lm_zh-cn-common-vocab8404-pytorch/summary)]<br>(Alibaba DAMO)|----|[[Link](https://arxiv.org/pdf/1706.03762.pdf)]|Open|
 |GPT 1.0|2018.06|OpenAI|117M|[[Link](https://github.com/openai/finetune-transformer-lm)]|[[Link](https://huggingface.co/openai-gpt)]|----|PyTorch|[[Link](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)]|Open|
@@ -26,8 +26,11 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 |GPT-2|2019.02|OpenAI|124M/1158M|[[Link](https://github.com/openai/gpt-2)]|[[Link](https://huggingface.co/gpt2)]|----|PyTorch|[[Link](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)]|Open|
 |XLNet|2019.06|CMU & Google|110M/240M|[[Link](https://github.com/zihangdai/xlnet)]|[[Link](https://huggingface.co/xlnet-base-cased)]|----|TF|[[Link](https://arxiv.org/pdf/1906.08237.pdf)]|Open|
 |T5|2019.10|Google|60M/220M/770M|[[Link](https://github.com/google-research/text-to-text-transfer-transformer)]|[[Link](https://huggingface.co/docs/transformers/model_doc/t5)]|----|TF / JAX|[[Link](https://jmlr.org/papers/v21/20-074.html)]|Open|
+|mT5|2020.10|Google|13B|[[Link](https://github.com/google-research/multilingual-t5/tree/master)]|[[Link](https://huggingface.co/docs/transformers/model_doc/mt5)]|----|TF|[[Link](https://arxiv.org/pdf/2010.11934.pdf)]|Open|
 |GPT-3|2020.05|OpenAI|175B|[[Link](https://github.com/openai/gpt-3)]|----|----|PyTorch|[[Link](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)]|Closed|
 |Pangu-Alpha|2020.07|Huawei & Peng Cheng Lab|2.6B|[[Link](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/PanGu-%CE%B1)]|[[Link](https://huggingface.co/imone/pangu_2_6B)]|[[Link](https://www.modelscope.cn/models/OpenICommunity/pangu_2_6B/summary)]|mindspore|[[Link](https://arxiv.org/pdf/2104.12369.pdf)]|Open|
+|CPM-2|2021.06|Tsinghua University & BAAI|11B/198B|[[Link](https://github.com/TsinghuaAI/CPM/tree/main)]|----|----|PyTorch|[[Link](https://arxiv.org/pdf/2106.10715.pdf)]|Open|
+|T0|2021.03|Hugging Face|11B|[[Link](https://github.com/bigscience-workshop/t-zero)]|[[Link](https://huggingface.co/bigscience/T0)]|----|PyTorch|[[Link](https://arxiv.org/pdf/2110.08207.pdf)]|Open|
 |PLUG|2021.04|Alibaba DAMO|27B|[[Link](https://github.com/alibaba/AliceMind/tree/main/PLUG)]|----|[[Link](https://www.modelscope.cn/models/damo/nlp_plug_text-generation_27B/summary)]|PyTorch|----|Open|
 |Bloom|2021.08|Bloom|176B|----|[[Link](https://huggingface.co/bigscience/bloom)]|[[Link](https://modelscope.cn/models/langboat/bloom-2b5-zh/summary)]<br>(langboat Tech)|PyTorch|[[Link](https://arxiv.org/pdf/2211.05100.pdf)]|Closed|
 |Codex (based on GPT3)|2021.07|OpenAI|----|----|----|----|----|[[Link](https://arxiv.org/pdf/2107.03374.pdf)]|Closed|
@@ -62,4 +65,4 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 
 ## Reference
 - https://arxiv.org/pdf/2303.18223.pdf
-
+- https://www.datalearner.com/ai-models/pretrained-models?&aiArea=2&openSource=-1&publisher=-1
