@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [NLP models💬](#nlp-models)
 - [CV models👀](#cv-models)
-- [Hybrid models](#hybrid-models)
+- [Multimodels](#multimodels)
 - [TODO Lists 🚩](#todo-lists-)
 - [Reference](#reference)
 
@@ -29,7 +29,7 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 |mT5|2020.10|Google|13B|[[Link](https://github.com/google-research/multilingual-t5/tree/master)]|[[Link](https://huggingface.co/docs/transformers/model_doc/mt5)]|----|TF|[[Link](https://arxiv.org/pdf/2010.11934.pdf)]|Open|
 |GPT-3|2020.05|OpenAI|175B|[[Link](https://github.com/openai/gpt-3)]|----|----|PyTorch|[[Link](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)]|Closed|
 |Pangu-Alpha|2020.07|Huawei & Peng Cheng Lab|2.6B|[[Link](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/PanGu-%CE%B1)]|[[Link](https://huggingface.co/imone/pangu_2_6B)]|[[Link](https://www.modelscope.cn/models/OpenICommunity/pangu_2_6B/summary)]|mindspore|[[Link](https://arxiv.org/pdf/2104.12369.pdf)]|Open|
-|CPM-2|2021.06|Tsinghua University & BAAI|11B/198B|[[Link](https://github.com/TsinghuaAI/CPM/tree/main)]|----|----|PyTorch|[[Link](https://arxiv.org/pdf/2106.10715.pdf)]|Open|
+|CPM-2|2021.06|Tsinghua University & BAAI(北京智源AI研究院)|11B/198B|[[Link](https://github.com/TsinghuaAI/CPM/tree/main)]|----|----|PyTorch|[[Link](https://arxiv.org/pdf/2106.10715.pdf)]|Open|
 |T0|2021.03|Hugging Face|11B|[[Link](https://github.com/bigscience-workshop/t-zero)]|[[Link](https://huggingface.co/bigscience/T0)]|----|PyTorch|[[Link](https://arxiv.org/pdf/2110.08207.pdf)]|Open|
 |PLUG|2021.04|Alibaba DAMO|27B|[[Link](https://github.com/alibaba/AliceMind/tree/main/PLUG)]|----|[[Link](https://www.modelscope.cn/models/damo/nlp_plug_text-generation_27B/summary)]|PyTorch|----|Open|
 |Bloom|2021.08|Bloom|176B|----|[[Link](https://huggingface.co/bigscience/bloom)]|[[Link](https://modelscope.cn/models/langboat/bloom-2b5-zh/summary)]<br>(langboat Tech)|PyTorch|[[Link](https://arxiv.org/pdf/2211.05100.pdf)]|Closed|
@@ -42,9 +42,12 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 |WebGPT|2021.12|OpenAI|175B|----|----|----|----|[[Link](https://arxiv.org/pdf/2112.09332.pdf)]|Closed|
 |PaLM|2022.04|Google|540B|[[Link](https://github.com/lucidrains/PaLM-pytorch)]|----|----|PyTorch|[[Link](https://arxiv.org/pdf/2204.02311.pdf)]|Open|
 |Gopher|2021.12|DeepMind|280B|----|----|----|----|[[Link](https://arxiv.org/pdf/2112.11446.pdf)]|Closed|
-|PALM|2020.04|Alibaba|257M/483M|[[Link](https://github.com/alibaba/AliceMind/tree/main/PALM)]|----|[[Link](https://modelscope.cn/models/damo/nlp_palm2.0_text-generation_chinese-large/summary)]<br>(Alibaba DAMO)|PyTorch|[[Link](https://arxiv.org/pdf/2004.07159.pdf)]|Open|
-|GPT-NeoX|2022|EleutherAI|20B|[[Link](https://github.com/EleutherAI/gpt-neox)]|[[Link](https://huggingface.co/docs/transformers/model_doc/gpt_neox)]|----|PyTorch|[[Link](https://arxiv.org/pdf/2204.06745.pdf)]|Open|
-||||||||||||||||||||||||||||||||||||||||||||
+|PALM|2020.04|Alibaba DAMO|257M/483M|[[Link](https://github.com/alibaba/AliceMind/tree/main/PALM)]|----|[[Link](https://modelscope.cn/models/damo/nlp_palm2.0_text-generation_chinese-large/summary)]<br>(Alibaba DAMO)|PyTorch|[[Link](https://arxiv.org/pdf/2004.07159.pdf)]|Open|
+|GPT-NeoX|2022.04|EleutherAI|20B|[[Link](https://github.com/EleutherAI/gpt-neox)]|[[Link](https://huggingface.co/docs/transformers/model_doc/gpt_neox)]|----|PyTorch|[[Link](https://arxiv.org/pdf/2204.06745.pdf)]|Open|
+|AlphaCode|2021.01|DeepMind|----|----|----|----|----|[[Link](https://arxiv.org/abs/2203.07814)]|Closed|
+|InstructGPT|2022.01|OpenAI|1.3B|----|----|----|----|[[Link](https://arxiv.org/pdf/2203.02155.pdf)]|Closed|
+|CodeGen|2022.01|SaleForce Research|350M/1B/3B/7B/16B|[[Link](https://github.com/salesforce/CodeGen)]|[[Link](https://huggingface.co/docs/transformers/model_doc/codegen)]|----|PyTorch|[[Link](https://arxiv.org/pdf/2203.13474.pdf)]|Open|
+||||||||||
 
 
 
@@ -55,7 +58,7 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-## Hybrid models
+## Multimodels
 
 ## TODO Lists 🚩
 - [ ] NLP models
@@ -64,5 +67,5 @@ All models are not sorted by any items, may be sorted by date or parameter size,
 - [ ] Other
 
 ## Reference
-- https://arxiv.org/pdf/2303.18223.pdf
+- LLM：https://arxiv.org/pdf/2303.18223.pdf
 - https://www.datalearner.com/ai-models/pretrained-models?&aiArea=2&openSource=-1&publisher=-1
